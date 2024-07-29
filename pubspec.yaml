@@ -98,9 +98,13 @@ flutter:
 flutter_native_splash:
   color: "#3369FF"
   image: assets/splashscreen.png
+  android_gravity: center
   android: true
   ios: true
 
-  # android_12:
-  #   image: assets/splashscreen.png
-  #   color: "#3369FF"
+  android_12:
+    color: "#3369FF"
+    image: assets/splashscreen.png
+    android_gravity: center
+    android: true
+    ios: true
